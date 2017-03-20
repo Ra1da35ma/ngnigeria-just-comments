@@ -1,0 +1,9 @@
+<form action="" (ngSubmit)="submitComment()">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Name" [(ngModel)]="model.name" name="name">
+  </div>
+  <div class="form-group">
+    <textarea id="" cols="30" rows="10" class="form-control" placeholder="Share your thoughts..." [(ngModel)]="model.content" name="content"></textarea>
+  </div>
+  <button class="btn btn-comment btn-block">Make</button>
+</form>

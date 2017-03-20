@@ -1,0 +1,15 @@
+<div class="title">
+  <h1 class="text-center">
+    {{title}}
+  </h1>
+</div>
+<div class="main">
+  <div class="container">
+    <div class="col-md-4">
+      <app-comment-form (newComment)="handleNewComment($event)"></app-comment-form>
+    </div>
+    <div class="col-md-8">
+      <app-comment-list [comments]="comments" (removeComment)="handleRemove($event)"></app-comment-list>
+    </div>
+  </div>
+</div>

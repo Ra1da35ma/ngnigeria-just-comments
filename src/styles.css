@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.title h1 {
+  color: #D80075;
+  padding-bottom: 15px;
+}
+
+.main {
+  height: auto;
+  padding-top: 30px;
+  background-image: linear-gradient(-157deg, #F6F6F6 0%, #EFEFEF 100%);
+  box-shadow: inset 0 2px 1px 0 rgba(0,0,0,0.10);
+}
+
+.btn-comment {
+  background-image: linear-gradient(-180deg, #D80075 0%, #950050 100%);
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid #950050;
+}
+
+.btn-comment:hover, .btn-comment:focus, .btn-comment:active {
+  background: #950050;
+  color: #fff;
+  outline: none;
+}
+
+.form-control:focus {
+  box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px inset, rgba(216, 0, 117, 0.5) 0px 0px 8px;
+  border-color: #D80075;
+}
+
+.comment-item {
+  padding: 10px 15px;
+  background: linear-gradient(-180deg, #FFFFFF 0%, #F7F7F7 100%);
+  background: #fff;
+  border: 1px solid #DDDDDD;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.comment-item:hover {
+  cursor: pointer;
+  background: #F7F7F7;
+}
+
+.comment-item h4 {
+  color: #D80075;
+}
