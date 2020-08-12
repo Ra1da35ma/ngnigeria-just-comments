@@ -23,7 +23,7 @@
     "core-js": "^2.4.1",
     "deepstream.io-client-js": "^2.1.2",
     "rxjs": "^5.1.0",
-    "zone.js": "^0.7.6"
+    "zone.js": "^0.10.3"
   },
   "devDependencies": {
     "@angular/cli": "1.0.0-rc.2",
